@@ -1,6 +1,6 @@
 {
   "name": "ohblogpost",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Componente para apresentação dos ultimos três posts do blog ohblog. (Componente Stencil)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

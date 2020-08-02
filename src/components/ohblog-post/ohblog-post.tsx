@@ -7,25 +7,20 @@ import { Component, Prop, h } from '@stencil/core';
 })
 export class OhblogpostComponent {
 
-  @Prop() tituloultima: string;
-  @Prop() textoultima: string;
-
-  @Prop() titulopenultima: string;
-  @Prop() textopenultima: string;
-
-  @Prop() tituloantepenultima: string;
-  @Prop() textoantepenultima: string;
+  @Prop() titulo: string;
+  @Prop() texto: string;
+  @Prop() data: string;
+  @Prop() redator: string;
+  
+tima: string;
 
   render() {
 
     return <div class="div-Ultimas-Postagens">
               <dl>
-                  <dt class="div-Ultimas-Postagens-dt">{this.tituloultima}</dt>
-                  <dd class="div-Ultimas-Postagens-dt-dd">{this.textoultima}</dd>
-                  <dt class="div-Ultimas-Postagens-dt">{this.titulopenultima}</dt>
-                  <dd class="div-Ultimas-Postagens-dt-dd">{this.textopenultima}</dd>
-                  <dt class="div-Ultimas-Postagens-dt">{this.tituloantepenultima}</dt>
-                  <dd class="div-Ultimas-Postagens-dt-dd">{this.textoantepenultima}</dd>
+                  <dt class="div-Ultimas-Postagens-dt">{this.titulo}<br/><br/></dt>
+                  <dd class="div-Ultimas-Postagens-dt div-Ultimas-Postagens-dt-dd">{this.texto}<br/><br/></dd>
+                  <dd class="div-Ultimas-Postagens-dt-dd">{this.data + " | " + this.redator}<br/><br/><br/></dd>
               </dl>
           </div>
 

@@ -7,14 +7,12 @@
 
 ## Properties
 
-| Property              | Attribute             | Description | Type     | Default     |
-| --------------------- | --------------------- | ----------- | -------- | ----------- |
-| `textoantepenultima`  | `textoantepenultima`  |             | `string` | `undefined` |
-| `textopenultima`      | `textopenultima`      |             | `string` | `undefined` |
-| `textoultima`         | `textoultima`         |             | `string` | `undefined` |
-| `tituloantepenultima` | `tituloantepenultima` |             | `string` | `undefined` |
-| `titulopenultima`     | `titulopenultima`     |             | `string` | `undefined` |
-| `tituloultima`        | `tituloultima`        |             | `string` | `undefined` |
+| Property  | Attribute | Description | Type     | Default     |
+| --------- | --------- | ----------- | -------- | ----------- |
+| `data`    | `data`    |             | `string` | `undefined` |
+| `redator` | `redator` |             | `string` | `undefined` |
+| `texto`   | `texto`   |             | `string` | `undefined` |
+| `titulo`  | `titulo`  |             | `string` | `undefined` |
 
 
 ----------------------------------------------

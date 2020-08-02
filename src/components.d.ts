@@ -7,12 +7,10 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface OhblogPost {
-        "textoantepenultima": string;
-        "textopenultima": string;
-        "textoultima": string;
-        "tituloantepenultima": string;
-        "titulopenultima": string;
-        "tituloultima": string;
+        "data": string;
+        "redator": string;
+        "texto": string;
+        "titulo": string;
     }
 }
 declare global {
@@ -28,12 +26,10 @@ declare global {
 }
 declare namespace LocalJSX {
     interface OhblogPost {
-        "textoantepenultima"?: string;
-        "textopenultima"?: string;
-        "textoultima"?: string;
-        "tituloantepenultima"?: string;
-        "titulopenultima"?: string;
-        "tituloultima"?: string;
+        "data"?: string;
+        "redator"?: string;
+        "texto"?: string;
+        "titulo"?: string;
     }
     interface IntrinsicElements {
         "ohblog-post": OhblogPost;
